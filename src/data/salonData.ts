@@ -137,7 +137,7 @@ export const MEMBERSHIP_PLANS: MembershipPlan[] = [
     badge: 'Popular Choice',
     priceText: 'Avail services worth ₹10,000 for just ₹7,500',
     benefitText: 'Instant ₹2,500 bonus service credit on hair, skin, and spa treatments.',
-    cardImage: '/images/client/academy/2.png',
+    cardImage: '/images/client/silver-membership-card.webp',
     features: [
       'Prepaid salon wallet value of ₹10,000',
       'Pay only ₹7,500 upfront',
@@ -158,7 +158,7 @@ export const MEMBERSHIP_PLANS: MembershipPlan[] = [
     badge: 'Best Luxury Value',
     priceText: 'Avail services worth ₹30,000 for just ₹20,000',
     benefitText: 'Enormous ₹10,000 bonus service credit for regular salon and spa visits.',
-    cardImage: '/images/client/academy/6.png',
+    cardImage: '/images/client/golden-membership-card.webp',
     features: [
       'Prepaid salon wallet value of ₹30,000',
       'Pay only ₹20,000 upfront',

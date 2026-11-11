@@ -78,7 +78,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, onSelectTab, onOpenB
             aria-label="Anita's Makeover - Home"
           >
             <img
-              src="/images/client/logo.png"
+              src="/images/client/anitas-makeover-logo.webp"
               alt="Anita's Makeover Logo"
               className="h-10 w-auto object-contain transition-transform group-hover:scale-105"
             />
