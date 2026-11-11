@@ -40,7 +40,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
   // Hero slider index
   const heroImages = [
     {
-      url: '/images/client/slider-1.jpg',
+      url: '/assets/aistudio/IMG-20261111-WA0037_62c8c224.jpg',
       title: 'Haute Hair Couture & Bespoke Styling',
       subtitle: 'Precision cuts, balayage, and restorative hair rituals in Gurgaon.',
     },
@@ -50,7 +50,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
       subtitle: 'Timeless royal bridal artistry, airbrush perfection, and jewellery setting.',
     },
     {
-      url: '/images/client/slider-2.jpg',
+      url: '/assets/aistudio/IMG-20261111-WA0086_3a6f87d2.jpg',
       title: 'Curative Skincare & Luxury Spa Rituals',
       subtitle: 'Advanced therapies featuring Skeydor & Agelock formulations.',
     },
@@ -337,7 +337,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
             <div className="lg:col-span-5 space-y-4">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white aspect-[4/5] bg-[#201815] group">
                 <img
-                  src="/images/client/slider-1.jpg"
+                  src="/assets/aistudio/IMG-20261111-WA0037_62c8c224.jpg"
                   alt="Anita's Makeover Atelier & Salon Suites"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
