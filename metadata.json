@@ -1,0 +1,6 @@
+{
+  "name": "Anita's Makeover - Luxury Unisex Salon & Academy Gurgaon",
+  "description": "Premium luxury unisex salon and academy in Gurgaon (Sector 23A, Sector 81, IMT Manesar) specializing in bridal makeover, hair styling, skin rituals, memberships, and certified beauty courses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
