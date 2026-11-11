@@ -1087,3 +1087,14 @@ export const ABOUT_SALON = {
     "Give us an opportunity to serve you once; we are sure you'll love to come back to us again and be our esteemed customer forever.",
   ],
 };
+
+
+// Branch photos are intentionally not assigned to a specific location unless verified by the client.
+export const COMMON_BRANCH_GALLERY = [
+  { id: 'in1', title: 'Unisex Hair Couture Styling Stations', url: '/assets/aistudio/IMG-20261111-WA0037_62c8c224.jpg' },
+  { id: 'in2', title: 'Private Skincare & Spa Chamber', url: '/assets/aistudio/IMG-20261111-WA0086_3a6f87d2.jpg' },
+  { id: 'in3', title: 'Bridal Makeover Dressing Suite', url: '/assets/aistudio/IMG-20261111-WA0085_ea398949.jpg' },
+  { id: 'in4', title: 'Hair Wash & Scalp Massage Lounge', url: '/assets/aistudio/IMG-20261111-WA0053_c0a60ce3.jpg' },
+  { id: 'in5', title: 'Luxury Nail Bar & Extension Lounge', url: '/assets/aistudio/IMG-20261111-WA0048_3bc7bdfc.jpg' },
+  { id: 'in6', title: 'Reception & Client Consultation Desk', url: '/assets/aistudio/IMG-20261111-WA0040_4100f448.jpg' },
+] as const;
