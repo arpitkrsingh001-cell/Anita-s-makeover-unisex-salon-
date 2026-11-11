@@ -137,7 +137,7 @@ export const MEMBERSHIP_PLANS: MembershipPlan[] = [
     badge: 'Popular Choice',
     priceText: 'Avail services worth ₹10,000 for just ₹7,500',
     benefitText: 'Instant ₹2,500 bonus service credit on hair, skin, and spa treatments.',
-    cardImage: '/images/client/silver-card.png',
+    cardImage: '/images/client/academy/2.png',
     features: [
       'Prepaid salon wallet value of ₹10,000',
       'Pay only ₹7,500 upfront',
@@ -158,7 +158,7 @@ export const MEMBERSHIP_PLANS: MembershipPlan[] = [
     badge: 'Best Luxury Value',
     priceText: 'Avail services worth ₹30,000 for just ₹20,000',
     benefitText: 'Enormous ₹10,000 bonus service credit for regular salon and spa visits.',
-    cardImage: '/images/client/golden-card.png',
+    cardImage: '/images/client/academy/6.png',
     features: [
       'Prepaid salon wallet value of ₹30,000',
       'Pay only ₹20,000 upfront',
@@ -179,7 +179,7 @@ export const MEMBERSHIP_PLANS: MembershipPlan[] = [
     badge: 'Annual Loyalty Card',
     priceText: 'Flat 20% Discount all year long',
     benefitText: 'Enjoy unlimited 20% savings on every salon service for 12 months.',
-    cardImage: '/images/client/membership-banner.jpg',
+    cardImage: '/images/client/academy/makeup-banner3.jpg',
     features: [
       '20% off all salon services for 1 full year (365 days)',
       'Valid from date of card issuance',
@@ -236,7 +236,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Precision cutting sculpted to your face shape and personal aura.',
         description:
           "Transform your everyday look with precision styling by our senior stylists. Includes detailed hair consultation, relaxing hair wash, expert cut, and custom blow dry styling.",
-        image: '/images/client/services/Hair-Cut.jpg',
+        image: '/assets/aistudio/IMG-20261111-WA0086_3a6f87d2.jpg',
         highlights: ['Face-shape consultation', 'Shampoo & conditioning', 'Blow dry finish', 'Men & Women styling'],
         pricingNote: 'Prices on consultation depending on hair length and stylist tier.',
       },
@@ -247,7 +247,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Turn unruly curls into silky smooth glass hair or add lustrous bouncy curls.',
         description:
           "Ever dreamt of changing the natural texture of your hair? Get those lustrous curls turned into straight smooth hair or just some curly locks to enhance your frame. Right from smooth, silky, ultra soft, straight to bouncy lustrous curls.",
-        image: '/images/client/services/hair2.jpg',
+        image: '/assets/aistudio/IMG-20261111-WA0087_59776bb6.jpg',
         highlights: ['Keratin smoothing', 'Permanent straightening', 'Bouncy perm', 'Moisture sealing'],
         pricingNote: 'Custom quote provided after hair strand diagnostic test.',
       },
@@ -258,7 +258,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'High-gloss red carpet blow dry and thermal straightening.',
         description:
           'Get event-ready bouncy hair with our signature thermal blowouts, volume rolls, or sleek poker-straight flat iron finishes.',
-        image: '/images/client/services/hair3.jpg',
+        image: '/assets/aistudio/IMG-20261111-WA0052_00bba762.jpg',
         highlights: ['Heat protectant infusion', 'Volumizing blowout', 'Curling wand waves', 'Long-lasting hold'],
         pricingNote: 'Available as standalone service or add-on.',
       },
@@ -269,7 +269,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Nutrient-rich deep therapy stimulating scalp roots and restoring density.',
         description:
           "Hair is the richest ornament of women. An energizing revitalizing ritual stimulates the scalp and nourishes hair from root to tip to increase density against UV rays, pollution, dust and heat. We use a specialized scalp and hair analysis diagnostic camera to select the ideal ritual.",
-        image: '/images/client/services/Hair-Ritual.jpg',
+        image: '/assets/aistudio/IMG-20261111-WA0037_62c8c224.jpg',
         highlights: ['Scalp diagnostic camera', 'Intense root nourishment', 'Anti-breakage repair', 'Relaxing head massage'],
         pricingNote: 'Custom therapy plans crafted based on diagnostic camera readout.',
       },
@@ -287,7 +287,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Rich, lustrous shades with zero ammonia and gentle scalp comfort.',
         description:
           'Transform your persona with our wide palette of international ammonia-free hair colours. Our master colourists analyze your skin undertones, eye color, and face shape to recommend the most flattering shade.',
-        image: '/images/client/services/hair2.jpg',
+        image: '/assets/aistudio/IMG-20261111-WA0087_59776bb6.jpg',
         highlights: ['Ammonia-free formulation', '100% grey coverage', 'Conditioning gloss', 'Personalized shade matching'],
         pricingNote: 'Prices vary by hair volume, root touch-up, or full length.',
       },
@@ -298,7 +298,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Dimensional balayage, ombre, and high-street face-framing tones.',
         description:
           'Creative Highlights & Lowlights have the power to vamp up your looks. Add depth & definition to your hair with Gold, Blonde, Pink, Purple, Magenta, and bright high-street shades, tailored to your haircut and personal lifestyle.',
-        image: '/images/client/services/HIGHLIGHTS-LOWLIGHTS.jpg',
+        image: '/assets/aistudio/IMG-20261111-WA0053_c0a60ce3.jpg',
         highlights: ['Balayage & Ombre techniques', 'Face-framing moneypiece', 'Bold fashion tones', 'Tone-refreshing toner'],
         pricingNote: 'Priced per foil streak or full balayage session.',
       },
@@ -309,7 +309,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Seamless regrowth coverage with matching color harmony.',
         description:
           'Quick, seamless touch-up for new growth and grey hair with conditioning shine gloss.',
-        image: '/images/client/services/hair3.jpg',
+        image: '/assets/aistudio/IMG-20261111-WA0052_00bba762.jpg',
         highlights: ['Regrowth matching', 'Quick application', 'Scalp barrier protection'],
         pricingNote: 'Standard touch-up session pricing available at branch.',
       },
@@ -338,7 +338,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Modern ethereal elegance for ring ceremonies, cocktail nights & receptions.',
         description:
           'Glamorous, picture-perfect makeup designed for evening spotlights and photography, featuring luminous glass skin and alluring eye styling.',
-        image: '/images/client/bridal/bridalanita-1.jpg',
+        image: '/images/client/bridal/anita-yadav-bridal-makeup1.jpg',
         highlights: ['Waterproof long-stay base', 'Smokey or glam cut-crease eyes', 'Contoured highlighting', 'Designer hair setting'],
         pricingNote: 'Special pricing when booked with pre-bridal or main bridal packages.',
       },
@@ -356,7 +356,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Radiant occasion makeup that stays fresh all night long.',
         description:
           'For a woman, make-up is about enhancing beauty and looks. Our specialized makeup services are a beauty accessory for weddings, anniversary dinners, and festive celebrations.',
-        image: '/images/client/services/Makeup.jpg',
+        image: '/assets/aistudio/IMG-20261111-WA0008_de2144e7.jpg',
         highlights: ['Flawless base matching', 'Precision eye art', 'Lip contouring', 'Setting mist lock'],
         pricingNote: 'Inquire via WhatsApp for single or group booking.',
       },
@@ -367,7 +367,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Express beauty touch-ups, dramatic glitter cuts & flawless skin base.',
         description:
           'Focused makeup services for clients who desire an ultra-clean base or striking statement eyes for corporate events or photo shoots.',
-        image: '/images/client/bridal/bridalanita-5.jpg',
+        image: '/images/client/bridal/anita-yadav-bridal-makeup2.jpg',
         highlights: ['Airbrush foundation base', 'Winged eyeliner & lashes', 'Defined brows'],
         pricingNote: 'Available on walk-in or appointment.',
       },
@@ -385,7 +385,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Combining the magic of nature with the wisdom of science for ageless skin.',
         description:
           'Indulging in skin rituals helps maintain healthy skin against biological ageing, stress, and pollution. We believe in using unique, exclusive, luxury brands like Skeydor and Agelock formulated with breakthrough curative science for oily glands, pigmentation, age spots, fine lines, and scars.',
-        image: '/images/client/services/Skin.jpg',
+        image: '/images/client/academy/self_grooming.jpg',
         highlights: ['Skeydor & Agelock certified products', 'Deep cellular infusion', 'Age reversal & pigmentation repair', 'Immediate and long-lasting glow'],
         pricingNote: 'Curated ritual recommendation provided after skin diagnostic camera analysis.',
       },
@@ -396,7 +396,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Pore clearing, gentle exfoliation, and even-toned skin clarity.',
         description:
           'Thorough pore extraction, dead-skin buffing, fruit or oxy bleach, and soothing herbal packs.',
-        image: '/images/client/services/Skin.jpg',
+        image: '/images/client/academy/self_grooming.jpg',
         highlights: ['Pore extraction', 'Steam therapy', 'Herbal cooling mask', 'Even skin tone'],
         pricingNote: 'Regular maintenance packages available.',
       },
@@ -414,7 +414,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Head-to-toe pampering scheduled over 7 to 30 days prior to the wedding.',
         description:
           'Plan your pre-bridal hair, beauty, and skin with our complete packages which include Body Scrub, Body Wrap, Skin Ritual, Hair Ritual, Full Body Waxing, Spa Manicure, Spa Pedicure, and just about everything a bride needs to look her absolute best.',
-        image: '/images/client/services/Prebridal.jpg',
+        image: '/images/client/bridal/anita-yadav-bridal-makeup3.jpg',
         highlights: ['Full body scrub & wrap', 'Customized skin rituals', 'Intensive hair density therapy', 'Luxury spa mani-pedi', 'Body waxing & polishing'],
         pricingNote: 'Package customized according to wedding dates (7-day, 15-day, 30-day).',
       },
@@ -432,7 +432,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Soothe your body, mind, and soul with natural essential oils and scrubs.',
         description:
           'A nutritional feast for your body to keep it looking radiant and healthy. Holistic health care with natural essential oils, body wraps, and external exfoliation leaving the skin glowing, accompanied by simultaneous pressure point therapy for relaxation and healing.',
-        image: '/images/client/services/Body-Spa.jpg',
+        image: '/images/client/academy/makeup-banner3.jpg',
         highlights: ['Natural essential oils', 'Herbal body wraps', 'Deep tissue & pressure point massage', 'Full body detox exfoliation'],
         pricingNote: 'Session duration options: 60 mins / 90 mins.',
       },
@@ -450,7 +450,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Rejuvenate. Relax. Refresh.',
         description:
           'Start your day by pampering yourself or relax after a hard day at work. High quality products keep your hands and feet smooth, soft, and supple while stimulating blood circulation and melting stress away with soaking, exfoliation, massage, masque, and moisture sealing.',
-        image: '/images/client/services/SPA-Manicure.jpg',
+        image: '/images/client/academy/6.png',
         highlights: ['Aromatic soak', 'Callus removal & exfoliation', 'Pressure point foot reflexology', 'Hydrating masque & moisturizer'],
         pricingNote: 'Available as individual or combo booking.',
       },
@@ -468,7 +468,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Flaunt healthy, glamorous nails with certified international nail educators.',
         description:
           'Exclusively introduced for clients who love healthy, beautiful nails. Choose from Gel, 3D, and Swarovski elements, permanent gel polish, nail strengthening treatments, and dry manicures. Featuring premier brands like Star Nail, Cuccio, IBD, Red Carpet Manicure, and Ciate.',
-        image: '/images/client/services/Nails.jpg',
+        image: '/images/client/academy/2.png',
         highlights: ['Gel extensions & overlays', 'Swarovski crystal & 3D art', 'Permanent gel polish', 'Certified nail technicians'],
         pricingNote: 'Prices according to chosen nail extension length and art complexity.',
       },
@@ -486,7 +486,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Silky smooth arms, legs, and supple hands.',
         description:
           'Full arms, legs, underarms, and gentle chocolate / rica waxing treatments paired with cuticle care and moisturizing hand packs.',
-        image: '/images/client/services/SPA-Manicure.jpg',
+        image: '/images/client/academy/6.png',
         highlights: ['Gentle rica / stripless wax', 'Moisture sealing', 'Cuticle care'],
         pricingNote: 'Multiple wax varieties available upon request.',
       },
@@ -504,7 +504,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Deep organic color with intricate bridal storytelling and floral figures.',
         description:
           'Traditional and contemporary bridal mehndi, full arms and feet, figure work, portrait motifs, and dark stain natural herbal henna cones.',
-        image: '/images/client/bridal/bridalanita-7.jpg',
+        image: '/images/client/bridal/anita-yadav-bridal-makeup4.jpg',
         highlights: ['100% pure organic herbal henna', 'Custom bridal motifs & portraits', 'Rich long-lasting stain'],
         pricingNote: 'Consultation required for bridal package details.',
       },
@@ -563,7 +563,7 @@ export const ACADEMY_COURSES: AcademyCourse[] = [
       'Lymphatic drainage & pressure point techniques',
     ],
     careerRoles: ['Clinical Aesthetician', 'Skin Specialist', 'Spa Therapist'],
-    image: '/images/client/services/Skin.jpg',
+    image: '/images/client/academy/self_grooming.jpg',
     certification: 'Advanced Skin Therapy Certification',
   },
   {
@@ -579,7 +579,7 @@ export const ACADEMY_COURSES: AcademyCourse[] = [
       'Scalp diagnostics & hair fall remedies',
     ],
     careerRoles: ['Senior Hair Stylist', 'Master Colorist', 'Hair Texture Specialist'],
-    image: '/images/client/services/HIGHLIGHTS-LOWLIGHTS.jpg',
+    image: '/assets/aistudio/IMG-20261111-WA0053_c0a60ce3.jpg',
     certification: 'Professional Hair Dressing Diploma',
   },
   {
@@ -611,7 +611,7 @@ export const ACADEMY_COURSES: AcademyCourse[] = [
       '3D Swarovski & encapsulated nail art',
     ],
     careerRoles: ['Certified Nail Technician', 'Nail Bar Owner', 'Nail Art Specialist'],
-    image: '/images/client/services/Nails.jpg',
+    image: '/images/client/academy/2.png',
     certification: 'Certified Nail Technician Diploma',
   },
 ];
@@ -903,16 +903,16 @@ export const SALON_GALLERY: GalleryItem[] = [
   { id: 'b3', title: 'Regal Wedding Day Look', category: 'bridal', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup2.jpg', description: 'Precision eye contouring and matte rose lips' },
   { id: 'b4', title: 'Classic Red Sabyasachi Bride', category: 'bridal', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup3.jpg', description: 'Traditional mathapatti placement with timeless winged eyes' },
   { id: 'b5', title: 'Ethereal Engagement Glow', category: 'bridal', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup4.jpg', description: 'Airbrushed dewiness with delicate pastel tones' },
-  { id: 'b6', title: 'Intricate Bridal Dupatta Setting', category: 'bridal', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup5.jpg', description: 'Precision dupatta draping and floral bun styling' },
-  { id: 'b7', title: 'Modern Reception Elegance', category: 'bridal', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup6.jpg', description: 'Glamorous Hollywood wave hair and sculpted cheekbones' },
-  { id: 'b8', title: 'Traditional Gold & Crimson Bride', category: 'bridal', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup7.jpg', description: 'Authentic Anita Makeover signature bridal finish' },
-  { id: 'b9', title: 'Pastel Lehenga Bridal Portrait', category: 'bridal', imageUrl: '/images/client/bridal/bridalanita-1.jpg', description: 'Soft glam bridal makeover with emerald green jewellery' },
-  { id: 'b10', title: 'Subtle Mehendi Festive Glam', category: 'bridal', imageUrl: '/images/client/bridal/bridalanita-2.jpg', description: 'Fresh sun-kissed radiant makeup' },
-  { id: 'b11', title: 'Jewelled Bridal Tiara Styling', category: 'bridal', imageUrl: '/images/client/bridal/bridalanita-3.jpg', description: 'Contemporary bridal hair accessories and glowing base' },
-  { id: 'b12', title: 'Smokey Kohl Bridal Eyes', category: 'bridal', imageUrl: '/images/client/bridal/bridalanita-4.jpg', description: 'Intense kohl-rimmed eyes with nude satin lips' },
-  { id: 'b13', title: 'Cocktail Night Statement Glam', category: 'bridal', imageUrl: '/images/client/bridal/bridalanita-5.jpg', description: 'Luminous highlighter and shimmer lids' },
-  { id: 'b14', title: 'Intricate Bridal Mehndi Hands', category: 'bridal', imageUrl: '/images/client/bridal/bridalanita-7.jpg', description: 'Deep organic henna stains with bridal jewelry' },
-  { id: 'b15', title: 'Grand Wedding Reception Look', category: 'bridal', imageUrl: '/images/client/bridal/bridalanita-8.jpg', description: 'Sophisticated royal bridal appearance' },
+  { id: 'b6', title: 'Intricate Bridal Dupatta Setting', category: 'bridal', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup1.jpg', description: 'Precision dupatta draping and floral bun styling' },
+  { id: 'b7', title: 'Modern Reception Elegance', category: 'bridal', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup2.jpg', description: 'Glamorous Hollywood wave hair and sculpted cheekbones' },
+  { id: 'b8', title: 'Traditional Gold & Crimson Bride', category: 'bridal', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup3.jpg', description: 'Authentic Anita Makeover signature bridal finish' },
+  { id: 'b9', title: 'Pastel Lehenga Bridal Portrait', category: 'bridal', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup1.jpg', description: 'Soft glam bridal makeover with emerald green jewellery' },
+  { id: 'b10', title: 'Subtle Mehendi Festive Glam', category: 'bridal', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup2.jpg', description: 'Fresh sun-kissed radiant makeup' },
+  { id: 'b11', title: 'Jewelled Bridal Tiara Styling', category: 'bridal', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup3.jpg', description: 'Contemporary bridal hair accessories and glowing base' },
+  { id: 'b12', title: 'Smokey Kohl Bridal Eyes', category: 'bridal', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup4.jpg', description: 'Intense kohl-rimmed eyes with nude satin lips' },
+  { id: 'b13', title: 'Cocktail Night Statement Glam', category: 'bridal', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup2.jpg', description: 'Luminous highlighter and shimmer lids' },
+  { id: 'b14', title: 'Intricate Bridal Mehndi Hands', category: 'bridal', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup4.jpg', description: 'Deep organic henna stains with bridal jewelry' },
+  { id: 'b15', title: 'Grand Wedding Reception Look', category: 'bridal', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup.jpg', description: 'Sophisticated royal bridal appearance' },
   {
     id: 'b16',
     title: 'Signature Bridal - Royal Crimson Velvet Lehenga by Anita Yadav',
@@ -1037,23 +1037,23 @@ export const SALON_GALLERY: GalleryItem[] = [
   { id: 'ba8', title: 'Wedding Guest Express Transformation', category: 'before_after', imageUrl: '/images/client/before_after/before-after-9.jpg', thumbnailUrl: '/images/client/before_after/before-after-9sm.jpg', description: 'Polished hair and fresh makeup' },
 
   // Interior & Salon Ambiance
-  { id: 'in1', title: 'Unisex Hair Couture Styling Stations', category: 'interior', imageUrl: '/images/client/slider-1.jpg', description: 'Spacious salon stations equipped with ergonomic mirrors and professional lighting' },
-  { id: 'in2', title: 'Private Skincare & Spa Chamber', category: 'interior', imageUrl: '/images/client/slider-2.jpg', description: 'Tranquil ambiance designed for deep relaxation and skin therapies' },
-  { id: 'in3', title: 'Bridal Makeover Dressing Suite', category: 'interior', imageUrl: '/images/client/slider-3.jpg', description: 'Dedicated bridal suite with multi-angle mirrors and jewellery lighting' },
-  { id: 'in4', title: 'Hair Wash & Scalp Massage Lounge', category: 'interior', imageUrl: '/images/client/slider-4.jpg', description: 'Ergonomic shampoo basins for stress-relieving hair rituals' },
-  { id: 'in5', title: 'Luxury Nail Bar & Extension Lounge', category: 'interior', imageUrl: '/images/client/slider-5.jpg', description: 'Featuring imported nail stations and curated brand palettes' },
-  { id: 'in6', title: 'Reception & Client Consultation Desk', category: 'interior', imageUrl: '/images/client/slider-6.jpg', description: 'Warm hospitality and expert diagnostic consultation' },
+  { id: 'in1', title: 'Unisex Hair Couture Styling Stations', category: 'interior', imageUrl: '/assets/aistudio/IMG-20261111-WA0037_62c8c224.jpg', description: 'Spacious salon stations equipped with ergonomic mirrors and professional lighting' },
+  { id: 'in2', title: 'Private Skincare & Spa Chamber', category: 'interior', imageUrl: '/assets/aistudio/IMG-20261111-WA0086_3a6f87d2.jpg', description: 'Tranquil ambiance designed for deep relaxation and skin therapies' },
+  { id: 'in3', title: 'Bridal Makeover Dressing Suite', category: 'interior', imageUrl: '/assets/aistudio/IMG-20261111-WA0085_ea398949.jpg', description: 'Dedicated bridal suite with multi-angle mirrors and jewellery lighting' },
+  { id: 'in4', title: 'Hair Wash & Scalp Massage Lounge', category: 'interior', imageUrl: '/assets/aistudio/IMG-20261111-WA0053_c0a60ce3.jpg', description: 'Ergonomic shampoo basins for stress-relieving hair rituals' },
+  { id: 'in5', title: 'Luxury Nail Bar & Extension Lounge', category: 'interior', imageUrl: '/assets/aistudio/IMG-20261111-WA0048_3bc7bdfc.jpg', description: 'Featuring imported nail stations and curated brand palettes' },
+  { id: 'in6', title: 'Reception & Client Consultation Desk', category: 'interior', imageUrl: '/assets/aistudio/IMG-20261111-WA0040_4100f448.jpg', description: 'Warm hospitality and expert diagnostic consultation' },
 
   // Services
-  { id: 's1', title: 'Precision Hair Cut in Progress', category: 'services', imageUrl: '/images/client/services/Hair-Cut.jpg', description: 'Sculpted styling by senior salon team' },
-  { id: 's2', title: 'Creative Balayage & Highlights', category: 'services', imageUrl: '/images/client/services/HIGHLIGHTS-LOWLIGHTS.jpg', description: 'Dimensional foil placement' },
-  { id: 's3', title: 'Relaxing Scalp Care Ritual', category: 'services', imageUrl: '/images/client/services/Hair-Ritual.jpg', description: 'Deep conditioning scalp revitalization' },
-  { id: 's4', title: 'Full Body Spa Aromatherapy', category: 'services', imageUrl: '/images/client/services/Body-Spa.jpg', description: 'Holistic wellness and muscle relaxation' },
-  { id: 's5', title: 'Aromatic Spa Manicure & Pedicure', category: 'services', imageUrl: '/images/client/services/SPA-Manicure.jpg', description: 'Exfoliation, massage and moisture lock' },
-  { id: 's6', title: 'Party & Festive Make-Up Session', category: 'services', imageUrl: '/images/client/services/Makeup.jpg', description: 'Expert brush work and contouring' },
-  { id: 's7', title: 'Bridal Preparation & Skin Polishing', category: 'services', imageUrl: '/images/client/services/Prebridal.jpg', description: 'Complete pre-wedding grooming' },
-  { id: 's8', title: 'Skeydor & Agelock Facial Therapy', category: 'services', imageUrl: '/images/client/services/Skin.jpg', description: 'Curative clinical skincare' },
-  { id: 's9', title: 'Designer Nail Bar Art & Gel Polish', category: 'services', imageUrl: '/images/client/services/Nails.jpg', description: 'Intricate nail extensions' },
+  { id: 's1', title: 'Precision Hair Cut in Progress', category: 'services', imageUrl: '/assets/aistudio/IMG-20261111-WA0086_3a6f87d2.jpg', description: 'Sculpted styling by senior salon team' },
+  { id: 's2', title: 'Creative Balayage & Highlights', category: 'services', imageUrl: '/assets/aistudio/IMG-20261111-WA0053_c0a60ce3.jpg', description: 'Dimensional foil placement' },
+  { id: 's3', title: 'Relaxing Scalp Care Ritual', category: 'services', imageUrl: '/assets/aistudio/IMG-20261111-WA0037_62c8c224.jpg', description: 'Deep conditioning scalp revitalization' },
+  { id: 's4', title: 'Full Body Spa Aromatherapy', category: 'services', imageUrl: '/images/client/academy/makeup-banner3.jpg', description: 'Holistic wellness and muscle relaxation' },
+  { id: 's5', title: 'Aromatic Spa Manicure & Pedicure', category: 'services', imageUrl: '/images/client/academy/6.png', description: 'Exfoliation, massage and moisture lock' },
+  { id: 's6', title: 'Party & Festive Make-Up Session', category: 'services', imageUrl: '/assets/aistudio/IMG-20261111-WA0008_de2144e7.jpg', description: 'Expert brush work and contouring' },
+  { id: 's7', title: 'Bridal Preparation & Skin Polishing', category: 'services', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup3.jpg', description: 'Complete pre-wedding grooming' },
+  { id: 's8', title: 'Skeydor & Agelock Facial Therapy', category: 'services', imageUrl: '/images/client/academy/self_grooming.jpg', description: 'Curative clinical skincare' },
+  { id: 's9', title: 'Designer Nail Bar Art & Gel Polish', category: 'services', imageUrl: '/images/client/academy/2.png', description: 'Intricate nail extensions' },
 ];
 
 // -------------------------------------------------------------
