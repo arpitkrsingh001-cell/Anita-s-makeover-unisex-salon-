@@ -46,9 +46,17 @@ export default function App() {
       }
     };
 
+    // Always start on Home after a fresh page load or reload.
+    // Internal navigation can still use hash changes during the current session.
     if (window.location.hash) {
-      handleHashChange();
+      window.history.replaceState(
+        null,
+        '',
+        window.location.pathname + window.location.search
+      );
     }
+    setCurrentTab('home');
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
 
     window.addEventListener('hashchange', handleHashChange);
     return () => window.removeEventListener('hashchange', handleHashChange);
