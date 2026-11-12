@@ -102,7 +102,7 @@ export const AcademyView: React.FC = () => {
 
         <div className="absolute top-0 right-0 w-1/2 h-full opacity-15 lg:opacity-25 pointer-events-none hidden sm:block">
           <img
-            src="/images/client/academy/makeup-banner3.jpg"
+            src="/images/client/anita-founder-award.jpg"
             alt="Academy Training Studio"
             className="w-full h-full object-cover"
           />
