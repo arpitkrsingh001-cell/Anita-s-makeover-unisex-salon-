@@ -372,9 +372,11 @@ export const HomeView: React.FC<HomeViewProps> = ({
                 <div className="grid grid-cols-2 gap-3">
                   <div className="p-3 rounded-xl bg-[#FAF8F5] border border-[#E8DFD5]/70 space-y-1.5">
                     <div className="flex items-center gap-2">
-                      <div className="w-8 h-8 rounded-full bg-gradient-to-br from-[#D4AF37] to-[#8C6D28] text-white font-serif font-bold text-xs flex items-center justify-center shadow-sm">
-                        AY
-                      </div>
+                      <img
+                        src="/images/client/anita-founder-award.jpg"
+                        alt="Anita Yadav with Sonam Kapoor at the Global Indian Awards"
+                        className="w-8 h-8 rounded-full object-cover border border-[#D4AF37]/50 shadow-sm"
+                      />
                       <div>
                         <h4 className="font-serif font-bold text-xs text-[#201815]">Anita Yadav</h4>
                         <p className="text-[10px] text-[#C5A059] font-medium">Founder & Creative Director</p>
