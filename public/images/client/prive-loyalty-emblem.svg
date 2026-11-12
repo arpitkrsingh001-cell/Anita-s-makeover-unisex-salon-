@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17110e"/><stop offset=".55" stop-color="#302117"/><stop offset="1" stop-color="#100d0b"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0ad"/><stop offset=".45" stop-color="#d4af37"/><stop offset="1" stop-color="#9a7025"/></linearGradient>
+</defs>
+<rect x="12" y="12" width="876" height="536" rx="34" fill="url(#bg)" stroke="url(#gold)" stroke-width="5"/>
+<rect x="30" y="30" width="840" height="500" rx="24" fill="none" stroke="#d4af37" stroke-opacity=".48" stroke-width="2"/>
+<path d="M450 78l18 35 39 6-28 27 7 39-36-19-36 19 7-39-28-27 39-6z" fill="none" stroke="url(#gold)" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="450" cy="133" r="73" fill="none" stroke="#d4af37" stroke-opacity=".45" stroke-width="2"/>
+<text x="450" y="265" text-anchor="middle" font-family="Georgia,serif" font-size="78" letter-spacing="7" fill="url(#gold)">PRIVÉ</text>
+<path d="M205 292h490" stroke="url(#gold)" stroke-width="2"/>
+<text x="450" y="350" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" letter-spacing="8" fill="#f8ead0">LOYALTY MEMBERSHIP</text>
+<text x="450" y="415" text-anchor="middle" font-family="Georgia,serif" font-size="28" fill="#d8bd82">A year of elevated beauty privileges</text>
+<text x="450" y="475" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" letter-spacing="5" fill="#b99a5d">ANITA'S MAKEOVER • SALON &amp; ACADEMY</text>
+</svg>

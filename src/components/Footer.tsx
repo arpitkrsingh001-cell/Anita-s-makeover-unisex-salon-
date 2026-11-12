@@ -54,7 +54,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectTab, onOpenBooking }) =>
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="/images/client/logo.png"
+                src="/images/client/anitas-makeover-logo.webp"
                 alt="Anita's Makeover Salon Logo"
                 className="h-10 w-auto object-contain bg-white/10 p-1 rounded"
               />

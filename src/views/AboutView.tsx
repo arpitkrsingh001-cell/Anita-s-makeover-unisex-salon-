@@ -65,14 +65,14 @@ export const AboutView: React.FC<AboutViewProps> = ({ onOpenBooking, onSelectTab
           <div className="space-y-4">
             <div className="aspect-[4/5] rounded-xl overflow-hidden shadow-md">
               <img
-                src="/assets/aistudio/IMG-20261111-WA0037_62c8c224.jpg"
+                src="/images/client/academy/makeup-banner3.jpg"
                 alt="Salon Styling Floor"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="aspect-square rounded-xl overflow-hidden shadow-md">
               <img
-                src="/assets/aistudio/IMG-20261111-WA0037_62c8c224.jpg"
+                src="/images/client/academy/makeup-banner3.jpg"
                 alt="Hair Ritual"
                 className="w-full h-full object-cover"
               />
@@ -81,14 +81,14 @@ export const AboutView: React.FC<AboutViewProps> = ({ onOpenBooking, onSelectTab
           <div className="space-y-4 pt-6">
             <div className="aspect-square rounded-xl overflow-hidden shadow-md">
               <img
-                src="/assets/aistudio/IMG-20261111-WA0086_3a6f87d2.jpg"
+                src="/images/client/academy/self_grooming.jpg"
                 alt="Skin Therapy Chamber"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="aspect-[4/5] rounded-xl overflow-hidden shadow-md">
               <img
-                src="/assets/aistudio/IMG-20261111-WA0085_ea398949.jpg"
+                src="/images/client/bridal/anita-yadav-bridal-makeup.jpg"
                 alt="Signature Bridal Artistry"
                 className="w-full h-full object-cover"
               />

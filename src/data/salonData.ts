@@ -179,7 +179,7 @@ export const MEMBERSHIP_PLANS: MembershipPlan[] = [
     badge: 'Annual Loyalty Card',
     priceText: 'Flat 20% Discount all year long',
     benefitText: 'Enjoy unlimited 20% savings on every salon service for 12 months.',
-    cardImage: '/images/client/academy/makeup-banner3.jpg',
+    cardImage: '/images/client/prive-loyalty-emblem.svg',
     features: [
       '20% off all salon services for 1 full year (365 days)',
       'Valid from date of card issuance',
@@ -432,7 +432,7 @@ export const SALON_SERVICES: ServiceCategory[] = [
         tagline: 'Soothe your body, mind, and soul with natural essential oils and scrubs.',
         description:
           'A nutritional feast for your body to keep it looking radiant and healthy. Holistic health care with natural essential oils, body wraps, and external exfoliation leaving the skin glowing, accompanied by simultaneous pressure point therapy for relaxation and healing.',
-        image: '/images/client/academy/makeup-banner3.jpg',
+        image: '/images/client/prive-loyalty-emblem.svg',
         highlights: ['Natural essential oils', 'Herbal body wraps', 'Deep tissue & pressure point massage', 'Full body detox exfoliation'],
         pricingNote: 'Session duration options: 60 mins / 90 mins.',
       },
@@ -1048,7 +1048,7 @@ export const SALON_GALLERY: GalleryItem[] = [
   { id: 's1', title: 'Precision Hair Cut in Progress', category: 'services', imageUrl: '/assets/aistudio/IMG-20261111-WA0086_3a6f87d2.jpg', description: 'Sculpted styling by senior salon team' },
   { id: 's2', title: 'Creative Balayage & Highlights', category: 'services', imageUrl: '/assets/aistudio/IMG-20261111-WA0053_c0a60ce3.jpg', description: 'Dimensional foil placement' },
   { id: 's3', title: 'Relaxing Scalp Care Ritual', category: 'services', imageUrl: '/assets/aistudio/IMG-20261111-WA0037_62c8c224.jpg', description: 'Deep conditioning scalp revitalization' },
-  { id: 's4', title: 'Full Body Spa Aromatherapy', category: 'services', imageUrl: '/images/client/academy/makeup-banner3.jpg', description: 'Holistic wellness and muscle relaxation' },
+  { id: 's4', title: 'Full Body Spa Aromatherapy', category: 'services', imageUrl: '/images/client/prive-loyalty-emblem.svg', description: 'Holistic wellness and muscle relaxation' },
   { id: 's5', title: 'Aromatic Spa Manicure & Pedicure', category: 'services', imageUrl: '/images/client/academy/6.png', description: 'Exfoliation, massage and moisture lock' },
   { id: 's6', title: 'Party & Festive Make-Up Session', category: 'services', imageUrl: '/assets/aistudio/IMG-20261111-WA0008_de2144e7.jpg', description: 'Expert brush work and contouring' },
   { id: 's7', title: 'Bridal Preparation & Skin Polishing', category: 'services', imageUrl: '/images/client/bridal/anita-yadav-bridal-makeup3.jpg', description: 'Complete pre-wedding grooming' },
