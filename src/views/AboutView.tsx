@@ -65,14 +65,14 @@ export const AboutView: React.FC<AboutViewProps> = ({ onOpenBooking, onSelectTab
           <div className="space-y-4">
             <div className="aspect-[4/5] rounded-xl overflow-hidden shadow-md">
               <img
-                src="/images/client/academy/makeup-banner3.jpg"
+                src="/images/client/anita-founder-award.jpg"
                 alt="Salon Styling Floor"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="aspect-square rounded-xl overflow-hidden shadow-md">
               <img
-                src="/images/client/academy/makeup-banner3.jpg"
+                src="/images/client/anita-founder-award.jpg"
                 alt="Hair Ritual"
                 className="w-full h-full object-cover"
               />
